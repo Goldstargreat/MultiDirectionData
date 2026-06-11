@@ -42,11 +42,14 @@ public class SecondActivity extends AppCompatActivity
         switch (operator)
         {
             case "+":
-                result = num1 + num2; break;
+                result = num1 + num2;
+                break;
             case "-":
-                result = num1 - num2; break;
+                result = num1 - num2;
+                break;
             case "*":
-                result = num1 * num2; break;
+                result = num1 * num2;
+                break;
             case "/":
                 if (num2 == 0)
                 {
